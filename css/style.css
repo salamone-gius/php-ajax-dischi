@@ -33,6 +33,7 @@ main {
     padding: 0.5rem;
     text-align: center;
     text-transform: uppercase;
+    min-height: 26rem;
 }
 
 .album-card img {
@@ -46,6 +47,6 @@ main {
 }
 
 .album-card h2, .album-card h5 {
-    color:lightgray;
+    color:gray;
     font-size: 1rem;
 }

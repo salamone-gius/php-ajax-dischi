@@ -32,26 +32,20 @@
                 <section class="albums py-5">
                     <div class="container">
                         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-3 g-lg-5">
-                            <div class="col">
-                                <div class="album-card">
-                                    <img src="https://via.placeholder.com/350" alt="">
-                                    <h1>AlbumName</h1>
-                                    <h2>Artist</h2>
-                                    <h5>Year</h5>
+                            <?php foreach($database as $element) { ?>
+                                <div class="col">
+                                    <div class="album-card">
+                                        <img src="<?php echo $element["poster"]; ?>" alt="<?php echo $element["title"]; ?>">
+                                        <h1><?php echo $element["title"]; ?></h1>
+                                        <h2><?php echo $element["author"]; ?></h2>
+                                        <h5><?php echo $element["year"]; ?></h5>
+                                    </div>
                                 </div>
-                            </div>
+                            <?php } ?>
                         </div>
                     </div>
                 </section>
             </main>
-
-
-
-
-            <?php
-                // var_dump($database);
-            ?>
-
         </div>
 
         <script src="js/main.js"></script>
