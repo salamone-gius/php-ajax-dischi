@@ -3,14 +3,49 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
- }
+}
+
+ /* --- TYPO --- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 
  /* --- HEADER --- */
- header {
+header {
     background-color: rgb(46, 58, 70);
- }
+    min-height: 10vh;
+}
 
-img {
+header img {
     max-width: 3.75rem;
+}
+
+ /* --- MAIN --- */
+main {
+    background-color: rgb(30, 45, 59);
+    min-height: 90vh;
+}
+
+.album-card {
+    background-color: rgb(46, 58, 70);
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.album-card img {
+    max-width: 100%;
+}
+
+.album-card h1 {
+    padding: 0.5rem 0;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.album-card h2, .album-card h5 {
+    color:lightgray;
+    font-size: 1rem;
 }
