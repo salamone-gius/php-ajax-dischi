@@ -1,7 +1,5 @@
 <?php
     require_once __DIR__ . '/server/database.php';
-
-    var_dump($database);
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +19,19 @@
     </head>
     <body>
         <div id="app">
-            
+            <header>
+                <div class="container py-2">
+                    <img src="img/spotify-logo.png" alt="Spotify-logo">
+                </div>
+            </header>
+
+
+
+
+            <?php
+                // var_dump($database);
+            ?>
+
         </div>
 
         <script src="js/main.js"></script>

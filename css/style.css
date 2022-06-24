@@ -3,5 +3,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
+    border: 1px solid red;
  }
+
+ /* --- HEADER --- */
+ header {
+    background-color: rgb(46, 58, 70);
+ }
+
+img {
+    max-width: 3.75rem;
+}
