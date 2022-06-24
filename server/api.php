@@ -7,6 +7,4 @@
 
     //  trasformo il database in un file json
     echo json_encode($database);
-
-    echo $database;
 ?>
