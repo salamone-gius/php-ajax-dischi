@@ -24,9 +24,9 @@
     <body>
         <div id="app">
             <header>
-                <div class="container-fluid py-2">
+                <!-- <div class="container-fluid py-2">
                     <img class="my-2" src="img/spotify-logo.png" alt="Spotify-logo">
-                </div>
+                </div> -->
             </header>
             <main>
                 <section class="albums py-5">
